@@ -1,0 +1,17 @@
+name: ot2_v7
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python = 3.7.1
+
+# some packages need to be installed by pip
+  - pip:
+    - opentrons == 7.1.0
+    - numpy == 1.15.1 # opentrons is very specific about the version of numpy they can use
+    - pandas == 0.25.3
+    - openpyxl == 3.0.9
+    - jupyterlab
+    - seaborn
+
