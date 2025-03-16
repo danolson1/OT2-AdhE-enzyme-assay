@@ -3,21 +3,6 @@
 
 # # AdhE initial screen assay
 # Based on C:\Users\d89659k\Documents\Research\Ctherm CBP project\adhE mutant characterization - Angel Pech 2022\AdhE assay 7-6-2023 PROSS ALDH NADPH\AdhE init screen OT2 protocol 7-6-2023 OT2.ipynb
-# 
-# Notes on 2-2-2024 modifications
-# * We were running into problems with well-to-well volume inaccuracy, so we took several steps to increase accuracyt
-# * Prewet tips when using 8-channel pipette
-# * Reduce dispense speed by half
-
-# Notes on 2-7-2024 modifications
-# * I saw that drops were hanging off the end of the pipette tips, so I adjusted the robot to pipette closer to the bottom of the well
-# * See change on line 967
-
-# Notes on 2-9-2024 modifications
-# * Added an option to pause between pipetting steps to inspect pipette tips for troubleshooting
-
-# Notes on 2-12-2024 modifications
-# * Get rid of tip prewetting and mixing to avoid problems with bubbles
 
 # # Protocol overview
 # * Turn on plate reader and get protocol ready
