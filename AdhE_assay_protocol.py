@@ -133,7 +133,7 @@ def run(protocol: protocol_api.ProtocolContext):
     
             piv = pd.pivot_table(df, index = 'row', columns = 'col', values = 'vol', aggfunc = 'mean' )
             s = piv.style.format("{:.0f}") # 
-            display(s)
+            # display(s)
     
     def indices_from_well_name(well_name):
         """
